@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      function lookup(string,endStr) {
+        var start = (string.length-endStr.length);
+        console.log(start);
+        var substr1 = string.substring(start);
+        console.log(substr1);
+        console.log(endStr);
+        if (substr1===endStr) {
+          return "yes";
+        } else {return "no";}
+        console.log(substr1);
+      }
+      console.log("Ends With",lookup("Ravi kumar","kumar"));
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
